@@ -31,7 +31,7 @@ var createScene = function () {
     // Default intensity is 1. Let's dim the light a small amount
     light.intensity = 0.7;
 
-    var seaGull = new meshModel('./seagulf.glb', 0.9)
+   var fish = new meshModel(fish.glb, 0.6);
 
     return scene;
 };
